@@ -1,0 +1,34 @@
+.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+
+.card-content img {
+  width: 350px;
+  margin: 10px 25px;
+  border-radius: 15px;
+}
+
+.card-content .movie-desc {
+  flex: 1;
+  flex-basis: 100px;
+  text-align: justify;
+  margin: 5px;
+  padding: 20px;
+  font-size: 1.4em;
+}
+
+.readMore-btn {
+  border-radius: 20px;
+  padding: 15px 45px;
+  margin-bottom: 40px;
+  font-size: 1em;
+  background-color: #b9e5f0;
+  cursor: pointer;
+}
+
+.readMore-btn:hover {
+  background-color: #82d7ec;
+}

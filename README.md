@@ -2,7 +2,7 @@
 
 🧹 A web application made with React that shows Studio Ghibli's movies and let the user filter them by director.
 
-**Check the final result by [clicking here](https://studioghibliappleonardorochadev.netlify.app/).**
+**Check the final result by [clicking here](https://ghibliappreactleonardorochadev.netlify.app).**
 
 This application consumes the [Studio Ghibli API](https://ghibliapi.herokuapp.com).
 

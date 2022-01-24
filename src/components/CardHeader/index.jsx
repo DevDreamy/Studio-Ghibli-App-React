@@ -1,3 +1,5 @@
+import P from 'prop-types';
+
 import './styles.css';
 
 export const CardHeader = ({ movie }) => (
@@ -6,3 +8,7 @@ export const CardHeader = ({ movie }) => (
     <h2 className="movie-org-title">{movie.original_title}</h2>
   </div>
 );
+
+CardHeader.propTypes = {
+  movie: P.object,
+};

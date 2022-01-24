@@ -13,7 +13,7 @@ export function handleChange({ e }) {
         {
           duration: 400,
           fill: 'both',
-        }
+        },
       );
     } else {
       cards[i].style.display = 'none';

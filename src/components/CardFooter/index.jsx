@@ -1,3 +1,5 @@
+import P from 'prop-types';
+
 import './styles.css';
 
 export const CardFooter = ({ movie }) => (
@@ -6,3 +8,7 @@ export const CardFooter = ({ movie }) => (
     <p>Run time: {movie.running_time} minutes</p>
   </div>
 );
+
+CardFooter.propTypes = {
+  movie: P.object,
+};

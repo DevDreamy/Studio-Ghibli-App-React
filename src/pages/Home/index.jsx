@@ -28,9 +28,7 @@ export class Home extends Component {
           <img src={logo} className="logo-img" alt="logo" />
           <p>
             You can find this same app made with pure JavaScript by{' '}
-            <a href="https://github.com/DevDreamy/Studio-Ghibli-App">
-              clicking here.
-            </a>
+            <a href="https://github.com/DevDreamy/Studio-Ghibli-App">clicking here.</a>
           </p>
           <Filter directors={filterDirectors({ movies })} />
           <Cards movies={movies} />

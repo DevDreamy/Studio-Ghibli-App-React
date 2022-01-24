@@ -1,6 +1,8 @@
 import { CardContent } from '../CardContent';
 import { CardFooter } from '../CardFooter';
 import { CardHeader } from '../CardHeader';
+import P from 'prop-types';
+
 import './styles.css';
 
 export const Cards = ({ movies }) => (
@@ -16,3 +18,7 @@ export const Cards = ({ movies }) => (
     ))}
   </div>
 );
+
+Cards.propTypes = {
+  movies: P.array,
+};

@@ -1,5 +1,7 @@
-import './styles.css';
+import P from 'prop-types';
 import { handleClick } from '../../functions/handleClick';
+
+import './styles.css';
 
 export const CardContent = ({ movie }) => (
   <div className="card-content">
@@ -10,3 +12,7 @@ export const CardContent = ({ movie }) => (
     </button>
   </div>
 );
+
+CardContent.propTypes = {
+  movie: P.array,
+};
